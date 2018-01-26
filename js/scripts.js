@@ -120,6 +120,7 @@ function setGamePoints() {
     computerPointsElem.innerHTML = computer.score;
 }
 
+
 function endGame() {
 	if(computer.score === 3 || player.score === 3) {
         gameState = "ended";
